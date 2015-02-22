@@ -7726,7 +7726,7 @@ ul.custom-nav {
   position: fixed;
   z-index: 9; }
   ul.custom-nav li {
-    display: inline-block;
+    display: block;
     font-size: 2.2rem;
     color: #E07169; }
     ul.custom-nav li a {
@@ -7762,13 +7762,13 @@ i.fa:hover {
 
 /* about me */
 .about-me {
-  /*
-  	p {  
-  		color: $brand-1; 
-  	}
-  	h2 {
-  		color:$brand-3;
-  	}*/ }
+  padding-top: 0; }
+  .about-me .card-panel {
+    margin-top: 0; }
+  .about-me p {
+    color: white; }
+  .about-me h1 {
+    font-weight: 100; }
 
 /*map*/
 #map-canvas {
