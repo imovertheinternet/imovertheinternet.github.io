@@ -1,0 +1,38 @@
+{
+  "name": "portfolio2",
+  "version": "0.0.1",
+  "authors": [
+    "Conrad <imovertheinternet@gmail.com>"
+  ],
+  "description": "conrads portfolio bruh",
+  "main": "index.php",
+  "keywords": [
+    "personal",
+    "portfolio",
+    "js",
+    "css",
+    "blah",
+    "blah",
+    "i",
+    "dont",
+    "care"
+  ],
+  "license": "MIT",
+  "homepage": "imovertheinternet.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "~0.95.1",
+    "jquery": "~2.1.3",
+    "fontawesome": "~4.3.0",
+    "animate.css": "~3.2.0",
+    "underscore": "~1.7.0",
+    "chartjs": "~1.0.1"
+  }
+}

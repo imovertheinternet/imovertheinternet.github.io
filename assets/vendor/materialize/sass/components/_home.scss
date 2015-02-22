@@ -1,0 +1,90 @@
+.graysidebar{
+	background-color: yellow;
+}
+
+/* nav */
+
+ul.custom-nav{
+	position:fixed;
+	z-index:9;
+		li {
+			display:inline-block;
+			font-size:2.2rem;
+			color:#E07169;
+				a{
+					color:white;
+					padding-left:1em;
+				}
+		}
+}
+
+#header-intro{
+	background-image: url(../../../../../assets/images/header.png);
+	background-size:cover;
+	height:100%;
+	background-position:center;
+}
+
+h1 span{
+	color:white;
+}
+
+h2{
+	color:$brand-1;
+}
+
+.intro-text{
+	color:white;
+	text-align:center;
+}
+
+i.fa{
+	transition:.5s;
+	color:white;
+	padding:0 10px;
+}
+i.fa:hover{
+	@extend .blue-grey-text, .lighten-4;
+	transition: .5s;
+}
+.parallax-container{
+	height:40em;
+}
+
+/* about me */
+.about-me{
+	/*
+		p {  
+			color: $brand-1; 
+		}
+		h2 {
+			color:$brand-3;
+		}*/
+}
+
+/*map*/
+#map-canvas{
+	width:100%;
+	height:350px;
+}
+
+/*portfolio*/
+#portfolio{
+	height:auto;
+	background: $brand-2;
+		h5 {
+			color:$brand-3;
+		}
+		.fa{
+			color:$brand-4;
+			 &:hover{ 
+			 	color:$brand-5;
+			 }
+		}
+}
+
+p.portfolio{
+	font-weight:100;
+	font-size:12px;
+	letter-spacing:.05em;
+}
